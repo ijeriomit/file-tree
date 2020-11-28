@@ -1,0 +1,25 @@
+{
+  "name": "@bit/ijeriomit.vue-component.tree",
+  "version": "0.0.19",
+  "homepage": "https://bit.dev/ijeriomit/vue-component/tree",
+  "main": "dist/tree.common.js",
+  "componentId": {
+    "scope": "ijeriomit.vue-component",
+    "name": "tree",
+    "version": "0.0.19"
+  },
+  "dependencies": {
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/vue@0.1.10"
+    }
+  },
+  "browser": "tree.umd.js"
+}
